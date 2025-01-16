@@ -1,4 +1,5 @@
 import DCDriver as DC
+import ServoDriver as Servo
 import StepperDriver as Stepper
 import time
 class Robot():
@@ -15,6 +16,7 @@ class Robot():
         self.f_left = self.board5.motor1
 
         # Turn servos
+        self.steer_servo = Servo.ServoDriver(0x40)
 
         # Drill stepper
         # self.board6 = Stepper.StepperDriver(0x66)
@@ -34,3 +36,7 @@ class Robot():
         self.b_left.stop()
         self.m_left.stop()
         self.f_left.stop()
+
+    def steer(self, angle):
+        self.steer_servo.servo[0].angle = angle
+    

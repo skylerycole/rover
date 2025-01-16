@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'rover_service = bb.rover_service:main',
-            'drive = bb.drive:main'
+            'drive = bb.drive:main',
+            'steer = bb.steer:main'
         ],
     },
 )
