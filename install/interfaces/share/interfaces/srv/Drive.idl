@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Drive.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct Drive_Request {
+      double left_speed;
+
+      double right_speed;
+
+      double duration;
+    };
+    struct Drive_Response {
+      boolean success;
+    };
+  };
+};

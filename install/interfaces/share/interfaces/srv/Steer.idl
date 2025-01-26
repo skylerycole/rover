@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Steer.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct Steer_Request {
+      int32 angle;
+    };
+    struct Steer_Response {
+      boolean success;
+    };
+  };
+};

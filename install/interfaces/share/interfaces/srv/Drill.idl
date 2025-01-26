@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Drill.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct Drill_Request {
+      int32 steps;
+
+      int32 delay;
+    };
+    struct Drill_Response {
+      boolean success;
+    };
+  };
+};

@@ -5,14 +5,17 @@ import rclpy
 from rclpy.node import Node
 
 # interfaces
-from interfaces.srv import Drive, Steer
+from interfaces.srv import Drive, Steer, Drill, Tray, Lift
 
 class RoverService(Node):
     def __init__(self):
         super().__init__('rover_service')
         self.robot = Robot()
         self.drive_srv = self.create_service(Drive, 'drive', self.driveCallback)
+        self.drill_srv = self.create_service(Drill, 'drill', self.drillCallback)
+        self.tray_srv = self.create_service(Tray, 'tray', self.trayCallback)
         self.steer_srv = self.create_service(Steer, 'steer', self.steerCallback)
+        self.steer_srv = self.create_service(Lift, 'lift', self.liftCallback)
         self.get_logger().info('Rover Service initialized')
         self.get_logger().info('Drive service available at: %s' % self.drive_srv.srv_name)
         self.get_logger().info('Steer service available at: %s' % self.steer_srv.srv_name)
@@ -23,13 +26,30 @@ class RoverService(Node):
         response.success = True
         return response
     
-
     def steerCallback(self, request, response):
         self.get_logger().info("Received Steer message angle: " + str(request.angle))
         self.robot.steer(request.angle)
         response.success = True
         return response
+    
+    def drillCallback(self, request, response):
+        self.get_logger().info("Received Drill message steps: " + str(request.steps) + "delay" + str(request.delay))
+        self.robot.drill(request.steps, request.delay)
+        response.success = True
+        return response
+    
+    def trayCallback(self, request, response):
+        self.get_logger().info("Received Tray message steps: " + str(request.steps) + "delay" + str(request.delay))
+        self.robot.tray(request.steps, request.delay)
+        response.success = True
+        return response
 
+    def liftCallback(self, request, response):
+        self.get_logger().info("Received Lift message steps: " + str(request.steps) + "delay" + str(request.delay))
+        self.robot.lift(request.steps, request.delay)
+        response.success = True
+        return response
+    
 def main(args=None):
     rclpy.init(args=args)
     node = RoverService()
@@ -43,5 +63,3 @@ def main(args=None):
 
 if __name__=="__main__":
     main()
-    
-    

@@ -19,8 +19,11 @@ class Robot():
         self.steer_servo = Servo.ServoDriver(0x40)
 
         # Drill stepper
-        # self.board6 = Stepper.StepperDriver(0x66)
-        # self.drill = self.board6.stepper1
+        self.board6 = Stepper.StepperDriver(0x66)
+        self.lift = self.board6.stepper1
+        self.drill = self.board6.stepper2
+        self.board7 = Stepper.StepperDriver(0x67)
+        self.tray = self.board7.stepper1
 
     def drive(self, left, right, duration):
         self.b_right.spin(right)
@@ -38,5 +41,15 @@ class Robot():
         self.f_left.stop()
 
     def steer(self, angle):
-        self.steer_servo.servo[0].angle = angle
-    
+        for i in range(0, 8):
+            self.steer_servo.servo[i].angle = angle
+
+    def drill(self, steps, delay):
+        for i in range(steps):
+            self.drill.step()
+            time.sleep(delay)
+
+    def tray(self, steps, delay):
+        for i in range(steps):
+            self.tray.step()
+            time.sleep(delay)

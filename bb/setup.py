@@ -22,7 +22,10 @@ setup(
         'console_scripts': [
             'rover_service = bb.rover_service:main',
             'drive = bb.drive:main',
-            'steer = bb.steer:main'
+            'steer = bb.steer:main',
+	        'tray = bb.tray:main',
+	        'drill = bb.drill:main',
+            'lift = bb.lift.main'
         ],
     },
 )

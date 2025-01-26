@@ -1,0 +1,56 @@
+[4.041s] Invoking command in '/home/rover/ros_ws/src/bb': PYTHONPATH=/home/rover/ros_ws/src/build/bb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bb build --build-base /home/rover/ros_ws/src/build/bb/build install --record /home/rover/ros_ws/src/build/bb/install.log --install-scripts $base/lib/bb --single-version-externally-managed install_data
+[5.361s] running egg_info
+[5.363s] creating ../build/bb/bb.egg-info
+[5.364s] writing ../build/bb/bb.egg-info/PKG-INFO
+[5.367s] writing dependency_links to ../build/bb/bb.egg-info/dependency_links.txt
+[5.367s] writing entry points to ../build/bb/bb.egg-info/entry_points.txt
+[5.369s] writing requirements to ../build/bb/bb.egg-info/requires.txt
+[5.369s] writing top-level names to ../build/bb/bb.egg-info/top_level.txt
+[5.380s] writing manifest file '../build/bb/bb.egg-info/SOURCES.txt'
+[5.525s] reading manifest file '../build/bb/bb.egg-info/SOURCES.txt'
+[5.529s] writing manifest file '../build/bb/bb.egg-info/SOURCES.txt'
+[5.529s] running build
+[5.530s] running build_py
+[5.531s] creating /home/rover/ros_ws/src/build/bb/build
+[5.531s] creating /home/rover/ros_ws/src/build/bb/build/lib
+[5.532s] creating /home/rover/ros_ws/src/build/bb/build/lib/bb
+[5.533s] copying bb/rover_service.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+[5.534s] copying bb/drive.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+[5.534s] copying bb/tray.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+[5.535s] copying bb/steer.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+[5.535s] copying bb/lift.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+[5.536s] copying bb/__init__.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+[5.537s] copying bb/drill.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+[5.537s] running install
+[5.540s] running install_lib
+[5.544s] creating /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+[5.545s] copying /home/rover/ros_ws/src/build/bb/build/lib/bb/rover_service.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+[5.545s] copying /home/rover/ros_ws/src/build/bb/build/lib/bb/drive.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+[5.546s] copying /home/rover/ros_ws/src/build/bb/build/lib/bb/tray.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+[5.546s] copying /home/rover/ros_ws/src/build/bb/build/lib/bb/steer.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+[5.548s] copying /home/rover/ros_ws/src/build/bb/build/lib/bb/lift.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+[5.549s] copying /home/rover/ros_ws/src/build/bb/build/lib/bb/__init__.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+[5.549s] copying /home/rover/ros_ws/src/build/bb/build/lib/bb/drill.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+[5.551s] byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/rover_service.py to rover_service.cpython-38.pyc
+[5.557s] byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/drive.py to drive.cpython-38.pyc
+[5.559s] byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/tray.py to tray.cpython-38.pyc
+[5.561s] byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/steer.py to steer.cpython-38.pyc
+[5.563s] byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/lift.py to lift.cpython-38.pyc
+[5.565s] byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/__init__.py to __init__.cpython-38.pyc
+[5.566s] byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/drill.py to drill.cpython-38.pyc
+[5.568s] running install_data
+[5.569s] creating /home/rover/ros_ws/src/install/bb/share/ament_index
+[5.569s] creating /home/rover/ros_ws/src/install/bb/share/ament_index/resource_index
+[5.570s] creating /home/rover/ros_ws/src/install/bb/share/ament_index/resource_index/packages
+[5.570s] copying resource/bb -> /home/rover/ros_ws/src/install/bb/share/ament_index/resource_index/packages
+[5.571s] copying package.xml -> /home/rover/ros_ws/src/install/bb/share/bb
+[5.571s] running install_egg_info
+[5.578s] Copying ../build/bb/bb.egg-info to /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb-0.0.0-py3.8.egg-info
+[5.582s] running install_scripts
+[5.653s] Installing drill script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.654s] Installing drive script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.655s] Installing rover_service script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.655s] Installing steer script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.656s] Installing tray script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.657s] writing list of installed files to '/home/rover/ros_ws/src/build/bb/install.log'
+[5.785s] Invoked command in '/home/rover/ros_ws/src/bb' returned '0': PYTHONPATH=/home/rover/ros_ws/src/build/bb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bb build --build-base /home/rover/ros_ws/src/build/bb/build install --record /home/rover/ros_ws/src/build/bb/install.log --install-scripts $base/lib/bb --single-version-externally-managed install_data

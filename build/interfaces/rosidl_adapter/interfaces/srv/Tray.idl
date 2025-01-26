@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Tray.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct Tray_Request {
+      int32 steps;
+
+      int32 delay;
+    };
+    struct Tray_Response {
+      boolean success;
+    };
+  };
+};
