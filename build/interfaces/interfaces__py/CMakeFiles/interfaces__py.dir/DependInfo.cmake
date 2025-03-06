@@ -12,6 +12,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/srv/_drill_s.c" "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/srv/_drive.py" "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/srv/_drive_s.c" "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/srv/_lift.py" "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/srv/_lift_s.c" "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/srv/_steer.py" "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/srv/_steer_s.c" "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/srv/_tray.py" "/home/rover/ros_ws/src/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"

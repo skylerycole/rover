@@ -1,0 +1,42 @@
+[1.071s] Invoking command in '/home/rover/ros_ws/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros_ws/install/py_srvcli:/home/rover/ros_ws/install/mypkg:/home/rover/ros_ws/install/bb:/opt/ros/foxy /usr/bin/cmake --build /home/rover/ros_ws/src/build/interfaces -- -j4 -l4
+[1.322s] [  1%] Built target interfaces__cpp
+[1.344s] [ 12%] Built target interfaces__rosidl_generator_c
+[1.484s] [ 23%] Built target interfaces__rosidl_typesupport_cpp
+[1.515s] [ 34%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[1.519s] [ 46%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[1.530s] [ 57%] Built target interfaces__rosidl_typesupport_c
+[1.617s] [ 68%] Built target interfaces__rosidl_typesupport_introspection_c
+[1.673s] [ 79%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[1.763s] [ 79%] Built target interfaces
+[1.856s] [ 80%] Built target interfaces__py
+[2.005s] [ 90%] Built target interfaces__python
+[2.163s] [ 93%] Built target interfaces__rosidl_typesupport_c__pyext
+[2.171s] [ 96%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[2.189s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.238s] Invoked command in '/home/rover/ros_ws/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros_ws/install/py_srvcli:/home/rover/ros_ws/install/mypkg:/home/rover/ros_ws/install/bb:/opt/ros/foxy /usr/bin/cmake --build /home/rover/ros_ws/src/build/interfaces -- -j4 -l4
+[2.293s] Invoking command in '/home/rover/ros_ws/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros_ws/install/py_srvcli:/home/rover/ros_ws/install/mypkg:/home/rover/ros_ws/install/bb:/opt/ros/foxy /usr/bin/cmake --install /home/rover/ros_ws/src/build/interfaces
+[2.330s] -- Install configuration: ""
+[2.331s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[2.333s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces
+[2.333s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg
+[2.334s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.335s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv
+[2.335s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/tray.h
+[2.336s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail
+[2.338s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__functions.c
+[2.339s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__functions.h
+[2.340s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__functions.c
+[2.341s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__type_support.h
+[2.342s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__functions.h
+[2.353s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__type_support.h
+[2.354s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__struct.h
+[2.355s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__functions.c
+[2.356s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__type_support.h
+[2.357s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__struct.h
+[2.359s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__struct.h
+[2.361s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__functions.c
+[2.362s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__type_support.h
+[2.365s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__struct.h
+[2.370s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__functions.h
+[2.371s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__struct.h
+[2.373s] Invoked command in '/home/rover/ros_ws/src/build/interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros_ws/install/py_srvcli:/home/rover/ros_ws/install/mypkg:/home/rover/ros_ws/install/bb:/opt/ros/foxy /usr/bin/cmake --install /home/rover/ros_ws/src/build/interfaces

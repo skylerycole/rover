@@ -1,6 +1,7 @@
 [console_scripts]
 drill = bb.drill:main
 drive = bb.drive:main
+lift = bb.lift.main
 rover_service = bb.rover_service:main
 steer = bb.steer:main
 tray = bb.tray:main

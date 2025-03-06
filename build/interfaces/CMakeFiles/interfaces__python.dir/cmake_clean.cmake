@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_drill_s.c.o"
   "CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_drive_s.c.o"
+  "CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_lift_s.c.o"
   "CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_steer_s.c.o"
   "CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_tray_s.c.o"
   "rosidl_generator_py/interfaces/libinterfaces__python.pdb"

@@ -102,6 +102,9 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gene
  rosidl_generator_c/interfaces/srv/detail/drive__functions.h
  rosidl_generator_c/interfaces/srv/detail/drive__struct.h
  rosidl_generator_c/interfaces/srv/detail/drive__type_support.h
+ rosidl_generator_c/interfaces/srv/detail/lift__functions.h
+ rosidl_generator_c/interfaces/srv/detail/lift__struct.h
+ rosidl_generator_c/interfaces/srv/detail/lift__type_support.h
  rosidl_generator_c/interfaces/srv/detail/steer__functions.h
  rosidl_generator_c/interfaces/srv/detail/steer__struct.h
  rosidl_generator_c/interfaces/srv/detail/steer__type_support.h

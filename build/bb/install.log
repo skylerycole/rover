@@ -23,6 +23,7 @@
 /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb-0.0.0-py3.8.egg-info/entry_points.txt
 /home/rover/ros_ws/src/install/bb/lib/bb/drill
 /home/rover/ros_ws/src/install/bb/lib/bb/drive
+/home/rover/ros_ws/src/install/bb/lib/bb/lift
 /home/rover/ros_ws/src/install/bb/lib/bb/rover_service
 /home/rover/ros_ws/src/install/bb/lib/bb/steer
 /home/rover/ros_ws/src/install/bb/lib/bb/tray

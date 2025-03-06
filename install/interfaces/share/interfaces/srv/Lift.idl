@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Lift.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct Lift_Request {
+      int32 steps;
+
+      double delay;
+    };
+    struct Lift_Response {
+      boolean success;
+    };
+  };
+};

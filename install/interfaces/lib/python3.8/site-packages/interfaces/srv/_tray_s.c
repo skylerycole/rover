@@ -64,8 +64,8 @@ bool interfaces__srv__tray__request__convert_from_py(PyObject * _pymsg, void * _
     if (!field) {
       return false;
     }
-    assert(PyLong_Check(field));
-    ros_message->delay = (int32_t)PyLong_AsLong(field);
+    assert(PyFloat_Check(field));
+    ros_message->delay = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -103,7 +103,7 @@ PyObject * interfaces__srv__tray__request__convert_to_py(void * raw_ros_message)
   }
   {  // delay
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->delay);
+    field = PyFloat_FromDouble(ros_message->delay);
     {
       int rc = PyObject_SetAttrString(_pymessage, "delay", field);
       Py_DECREF(field);

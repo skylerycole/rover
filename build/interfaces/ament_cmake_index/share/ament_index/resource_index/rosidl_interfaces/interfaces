@@ -6,6 +6,10 @@ srv/Drive.idl
 srv/Drive.srv
 srv/Drive_Request.msg
 srv/Drive_Response.msg
+srv/Lift.idl
+srv/Lift.srv
+srv/Lift_Request.msg
+srv/Lift_Response.msg
 srv/Steer.idl
 srv/Steer.srv
 srv/Steer_Request.msg

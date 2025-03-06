@@ -29,16 +29,16 @@ class StepperDriver():
         self.pca.channels[2].duty_cycle = 0xFFFF
         self.pca.channels[13].duty_cycle = 0xFFFF
         self.pca.channels[8].duty_cycle = 0xFFFF
-        self.stepper1 = Stepper(stepper.StepperMotor(
+        self.stepper1 = stepper.StepperMotor(
             self.pca.channels[4],
             self.pca.channels[3],
             self.pca.channels[5],
             self.pca.channels[6]
-        ))
-        self.stepper2 = Stepper(stepper.StepperMotor(
+        )
+        self.stepper2 = stepper.StepperMotor(
             self.pca.channels[10],
             self.pca.channels[9],
             self.pca.channels[11],
             self.pca.channels[12]
-        ))
+        )
 

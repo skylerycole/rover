@@ -8,7 +8,7 @@ module interfaces {
     struct Tray_Request {
       int32 steps;
 
-      int32 delay;
+      double delay;
     };
     struct Tray_Response {
       boolean success;

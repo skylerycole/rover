@@ -60,11 +60,13 @@ interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_dr
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_steer.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_drill.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_tray.py
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_lift.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/__init__.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_drive_s.c
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_steer_s.c
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_drill_s.c
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_tray_s.c
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_lift_s.c
 
 
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -84,6 +86,7 @@ rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/srv/Steer.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/srv/Drill.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/srv/Tray.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/srv/Lift.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rover/ros_ws/src/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/rover/ros_ws/src/build/interfaces/interfaces__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/rover/ros_ws/src/build/interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -105,6 +108,9 @@ rosidl_generator_py/interfaces/srv/_drill.py: rosidl_generator_py/interfaces/_in
 rosidl_generator_py/interfaces/srv/_tray.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_tray.py
 
+rosidl_generator_py/interfaces/srv/_lift.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_lift.py
+
 rosidl_generator_py/interfaces/srv/__init__.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/__init__.py
 
@@ -120,6 +126,9 @@ rosidl_generator_py/interfaces/srv/_drill_s.c: rosidl_generator_py/interfaces/_i
 rosidl_generator_py/interfaces/srv/_tray_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_tray_s.c
 
+rosidl_generator_py/interfaces/srv/_lift_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_lift_s.c
+
 interfaces__py: interfaces__py/CMakeFiles/interfaces__py
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -128,11 +137,13 @@ interfaces__py: rosidl_generator_py/interfaces/srv/_drive.py
 interfaces__py: rosidl_generator_py/interfaces/srv/_steer.py
 interfaces__py: rosidl_generator_py/interfaces/srv/_drill.py
 interfaces__py: rosidl_generator_py/interfaces/srv/_tray.py
+interfaces__py: rosidl_generator_py/interfaces/srv/_lift.py
 interfaces__py: rosidl_generator_py/interfaces/srv/__init__.py
 interfaces__py: rosidl_generator_py/interfaces/srv/_drive_s.c
 interfaces__py: rosidl_generator_py/interfaces/srv/_steer_s.c
 interfaces__py: rosidl_generator_py/interfaces/srv/_drill_s.c
 interfaces__py: rosidl_generator_py/interfaces/srv/_tray_s.c
+interfaces__py: rosidl_generator_py/interfaces/srv/_lift_s.c
 interfaces__py: interfaces__py/CMakeFiles/interfaces__py.dir/build.make
 
 .PHONY : interfaces__py

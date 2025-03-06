@@ -21,7 +21,7 @@ extern "C"
 typedef struct interfaces__srv__Drill_Request
 {
   int32_t steps;
-  int32_t delay;
+  double delay;
 } interfaces__srv__Drill_Request;
 
 // Struct for a sequence of interfaces__srv__Drill_Request.

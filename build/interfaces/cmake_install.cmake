@@ -367,6 +367,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/srv" TYPE FILE FILES "/home/rover/ros_ws/src/build/interfaces/rosidl_adapter/interfaces/srv/Lift.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/srv" TYPE FILE FILES "/home/rover/ros_ws/src/interfaces/srv/Drive.srv")
 endif()
 
@@ -412,6 +416,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/srv" TYPE FILE FILES "/home/rover/ros_ws/src/build/interfaces/rosidl_cmake/srv/Tray_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/srv" TYPE FILE FILES "/home/rover/ros_ws/src/interfaces/srv/Lift.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/srv" TYPE FILE FILES "/home/rover/ros_ws/src/build/interfaces/rosidl_cmake/srv/Lift_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/srv" TYPE FILE FILES "/home/rover/ros_ws/src/build/interfaces/rosidl_cmake/srv/Lift_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -73,6 +73,11 @@ CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/tray__bui
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/tray__struct.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/tray__traits.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/tray__type_support.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/lift.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/lift__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/lift__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/lift__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/lift__type_support.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
@@ -99,6 +104,7 @@ rosidl_generator_cpp/interfaces/srv/drive.hpp: rosidl_adapter/interfaces/srv/Dri
 rosidl_generator_cpp/interfaces/srv/drive.hpp: rosidl_adapter/interfaces/srv/Steer.idl
 rosidl_generator_cpp/interfaces/srv/drive.hpp: rosidl_adapter/interfaces/srv/Drill.idl
 rosidl_generator_cpp/interfaces/srv/drive.hpp: rosidl_adapter/interfaces/srv/Tray.idl
+rosidl_generator_cpp/interfaces/srv/drive.hpp: rosidl_adapter/interfaces/srv/Lift.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rover/ros_ws/src/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/rover/ros_ws/src/build/interfaces/rosidl_generator_cpp__arguments.json
 
@@ -159,6 +165,21 @@ rosidl_generator_cpp/interfaces/srv/detail/tray__traits.hpp: rosidl_generator_cp
 rosidl_generator_cpp/interfaces/srv/detail/tray__type_support.hpp: rosidl_generator_cpp/interfaces/srv/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/tray__type_support.hpp
 
+rosidl_generator_cpp/interfaces/srv/lift.hpp: rosidl_generator_cpp/interfaces/srv/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/lift.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/lift__builder.hpp: rosidl_generator_cpp/interfaces/srv/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/lift__builder.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/lift__struct.hpp: rosidl_generator_cpp/interfaces/srv/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/lift__struct.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/lift__traits.hpp: rosidl_generator_cpp/interfaces/srv/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/lift__traits.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/lift__type_support.hpp: rosidl_generator_cpp/interfaces/srv/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/lift__type_support.hpp
+
 interfaces__cpp: CMakeFiles/interfaces__cpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/srv/drive.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/drive__builder.hpp
@@ -180,6 +201,11 @@ interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/tray__builder.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/tray__struct.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/tray__traits.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/tray__type_support.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/lift.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/lift__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/lift__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/lift__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/lift__type_support.hpp
 interfaces__cpp: CMakeFiles/interfaces__cpp.dir/build.make
 
 .PHONY : interfaces__cpp

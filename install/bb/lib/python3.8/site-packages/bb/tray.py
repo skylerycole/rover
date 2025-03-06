@@ -6,7 +6,7 @@ from interfaces.srv import Tray
 class TrayClient(Node):
     def __init__(self):
         super().__init__('tray_client')
-        self.client = self.create_client(Drive, 'tray')
+        self.client = self.create_client(Tray, 'tray')
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info("waiting for service")
         self.req = Tray.Request()
@@ -22,7 +22,7 @@ def main(args=None):
     rclpy.init(args=args)
     client = TrayClient()
 
-    steps = float(sys.argv[1])
+    steps = int(sys.argv[1])
     delay = float(sys.argv[2])
     client.get_logger().info(f"Sending Request to Tray:\n  Steps: {steps}\n  Delay: {delay} seconds")
     response = client.send_request(steps, delay)

@@ -49,7 +49,7 @@ static rosidl_typesupport_introspection_c__MessageMember Tray_Request__rosidl_ty
   },
   {
     "delay",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array

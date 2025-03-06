@@ -59,12 +59,12 @@ class Tray_Request(metaclass=Metaclass_Tray_Request):
 
     _fields_and_field_types = {
         'steps': 'int32',
-        'delay': 'int32',
+        'delay': 'double',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
-        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -72,7 +72,7 @@ class Tray_Request(metaclass=Metaclass_Tray_Request):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.steps = kwargs.get('steps', int())
-        self.delay = kwargs.get('delay', int())
+        self.delay = kwargs.get('delay', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -138,10 +138,8 @@ class Tray_Request(metaclass=Metaclass_Tray_Request):
     def delay(self, value):
         if __debug__:
             assert \
-                isinstance(value, int), \
-                "The 'delay' field must be of type 'int'"
-            assert value >= -2147483648 and value < 2147483648, \
-                "The 'delay' field must be an integer in [-2147483648, 2147483647]"
+                isinstance(value, float), \
+                "The 'delay' field must be of type 'float'"
         self._delay = value
 
 

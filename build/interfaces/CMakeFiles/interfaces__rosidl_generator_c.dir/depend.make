@@ -25,6 +25,18 @@ CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/drive__functions.c.o: rosidl_generator_c/interfaces/srv/detail/drive__functions.h
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/drive__functions.c.o: rosidl_generator_c/interfaces/srv/detail/drive__struct.h
 
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: rosidl_generator_c/interfaces/srv/detail/lift__functions.c
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: /opt/ros/foxy/include/rcutils/allocator.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: /opt/ros/foxy/include/rcutils/macros.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: /opt/ros/foxy/include/rcutils/testing/fault_injection.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: /opt/ros/foxy/include/rcutils/types/rcutils_ret.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: /opt/ros/foxy/include/rcutils/visibility_control.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: /opt/ros/foxy/include/rcutils/visibility_control_macros.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: rosidl_generator_c/interfaces/msg/rosidl_generator_c__visibility_control.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: rosidl_generator_c/interfaces/srv/detail/lift__functions.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o: rosidl_generator_c/interfaces/srv/detail/lift__struct.h
+
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/steer__functions.c.o: rosidl_generator_c/interfaces/srv/detail/steer__functions.c
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/steer__functions.c.o: /opt/ros/foxy/include/rcutils/allocator.h
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/steer__functions.c.o: /opt/ros/foxy/include/rcutils/macros.h

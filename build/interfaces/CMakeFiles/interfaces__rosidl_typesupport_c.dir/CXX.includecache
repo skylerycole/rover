@@ -54,6 +54,30 @@ rosidl_runtime_c/service_type_support_struct.h
 rosidl_typesupport_c/service_type_support_dispatch.h
 /home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/rosidl_typesupport_c/service_type_support_dispatch.h
 
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/lift__type_support.cpp
+cstddef
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/rosidl_runtime_c/message_type_support_struct.h
+interfaces/msg/rosidl_typesupport_c__visibility_control.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/interfaces/msg/rosidl_typesupport_c__visibility_control.h
+interfaces/srv/detail/lift__struct.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/interfaces/srv/detail/lift__struct.h
+rosidl_typesupport_c/identifier.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/rosidl_typesupport_interface/macros.h
+rosidl_runtime_c/service_type_support_struct.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/rosidl_runtime_c/service_type_support_struct.h
+rosidl_typesupport_c/service_type_support_dispatch.h
+/home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/rosidl_typesupport_c/service_type_support_dispatch.h
+
 /home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/steer__type_support.cpp
 cstddef
 /home/rover/ros_ws/src/build/interfaces/rosidl_typesupport_c/interfaces/srv/cstddef
@@ -149,6 +173,14 @@ stdint.h
 -
 
 rosidl_generator_c/interfaces/srv/detail/drive__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/interfaces/srv/detail/lift__struct.h
 stdbool.h
 -
 stddef.h

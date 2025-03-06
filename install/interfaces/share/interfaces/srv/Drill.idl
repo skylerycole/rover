@@ -8,7 +8,7 @@ module interfaces {
     struct Drill_Request {
       int32 steps;
 
-      int32 delay;
+      double delay;
     };
     struct Drill_Response {
       boolean success;

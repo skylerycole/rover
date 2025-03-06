@@ -38,7 +38,7 @@ struct Tray_Request_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->steps = 0l;
-      this->delay = 0l;
+      this->delay = 0.0;
     }
   }
 
@@ -49,7 +49,7 @@ struct Tray_Request_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->steps = 0l;
-      this->delay = 0l;
+      this->delay = 0.0;
     }
   }
 
@@ -58,7 +58,7 @@ struct Tray_Request_
     int32_t;
   _steps_type steps;
   using _delay_type =
-    int32_t;
+    double;
   _delay_type delay;
 
   // setters for named parameter idiom
@@ -69,7 +69,7 @@ struct Tray_Request_
     return *this;
   }
   Type & set__delay(
-    const int32_t & _arg)
+    const double & _arg)
   {
     this->delay = _arg;
     return *this;

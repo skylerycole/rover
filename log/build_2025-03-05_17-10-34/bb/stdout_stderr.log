@@ -1,0 +1,36 @@
+running egg_info
+writing ../build/bb/bb.egg-info/PKG-INFO
+writing dependency_links to ../build/bb/bb.egg-info/dependency_links.txt
+writing entry points to ../build/bb/bb.egg-info/entry_points.txt
+writing requirements to ../build/bb/bb.egg-info/requires.txt
+writing top-level names to ../build/bb/bb.egg-info/top_level.txt
+reading manifest file '../build/bb/bb.egg-info/SOURCES.txt'
+writing manifest file '../build/bb/bb.egg-info/SOURCES.txt'
+running build
+running build_py
+copying bb/rover_service.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+copying bb/tray.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+copying bb/lift.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+copying bb/drill.py -> /home/rover/ros_ws/src/build/bb/build/lib/bb
+running install
+running install_lib
+copying /home/rover/ros_ws/src/build/bb/build/lib/bb/rover_service.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+copying /home/rover/ros_ws/src/build/bb/build/lib/bb/tray.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+copying /home/rover/ros_ws/src/build/bb/build/lib/bb/lift.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+copying /home/rover/ros_ws/src/build/bb/build/lib/bb/drill.py -> /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb
+byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/rover_service.py to rover_service.cpython-38.pyc
+byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/tray.py to tray.cpython-38.pyc
+byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/lift.py to lift.cpython-38.pyc
+byte-compiling /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb/drill.py to drill.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/bb/bb.egg-info to /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb-0.0.0-py3.8.egg-info
+running install_scripts
+Installing drill script to /home/rover/ros_ws/src/install/bb/lib/bb
+Installing drive script to /home/rover/ros_ws/src/install/bb/lib/bb
+Installing lift script to /home/rover/ros_ws/src/install/bb/lib/bb
+Installing rover_service script to /home/rover/ros_ws/src/install/bb/lib/bb
+Installing steer script to /home/rover/ros_ws/src/install/bb/lib/bb
+Installing tray script to /home/rover/ros_ws/src/install/bb/lib/bb
+writing list of installed files to '/home/rover/ros_ws/src/build/bb/install.log'

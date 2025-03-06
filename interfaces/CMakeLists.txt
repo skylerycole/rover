@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Steer.srv"
   "srv/Drill.srv"
   "srv/Tray.srv"
+  "srv/Lift.srv"
 )
 # uncomment the following section in order to fill in
 # further dependencies manually.

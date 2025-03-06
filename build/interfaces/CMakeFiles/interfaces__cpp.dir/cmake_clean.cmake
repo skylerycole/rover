@@ -8,6 +8,10 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/interfaces/srv/detail/drive__struct.hpp"
   "rosidl_generator_cpp/interfaces/srv/detail/drive__traits.hpp"
   "rosidl_generator_cpp/interfaces/srv/detail/drive__type_support.hpp"
+  "rosidl_generator_cpp/interfaces/srv/detail/lift__builder.hpp"
+  "rosidl_generator_cpp/interfaces/srv/detail/lift__struct.hpp"
+  "rosidl_generator_cpp/interfaces/srv/detail/lift__traits.hpp"
+  "rosidl_generator_cpp/interfaces/srv/detail/lift__type_support.hpp"
   "rosidl_generator_cpp/interfaces/srv/detail/steer__builder.hpp"
   "rosidl_generator_cpp/interfaces/srv/detail/steer__struct.hpp"
   "rosidl_generator_cpp/interfaces/srv/detail/steer__traits.hpp"
@@ -18,6 +22,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/interfaces/srv/detail/tray__type_support.hpp"
   "rosidl_generator_cpp/interfaces/srv/drill.hpp"
   "rosidl_generator_cpp/interfaces/srv/drive.hpp"
+  "rosidl_generator_cpp/interfaces/srv/lift.hpp"
   "rosidl_generator_cpp/interfaces/srv/steer.hpp"
   "rosidl_generator_cpp/interfaces/srv/tray.hpp"
 )

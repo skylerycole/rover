@@ -65,6 +65,9 @@ CMakeFiles/interfaces: rosidl_cmake/srv/Drill_Response.msg
 CMakeFiles/interfaces: /home/rover/ros_ws/src/interfaces/srv/Tray.srv
 CMakeFiles/interfaces: rosidl_cmake/srv/Tray_Request.msg
 CMakeFiles/interfaces: rosidl_cmake/srv/Tray_Response.msg
+CMakeFiles/interfaces: /home/rover/ros_ws/src/interfaces/srv/Lift.srv
+CMakeFiles/interfaces: rosidl_cmake/srv/Lift_Request.msg
+CMakeFiles/interfaces: rosidl_cmake/srv/Lift_Response.msg
 
 
 interfaces: CMakeFiles/interfaces

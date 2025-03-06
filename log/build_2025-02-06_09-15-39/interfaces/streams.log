@@ -1,0 +1,323 @@
+[1.070s] Invoking command in '/home/rover/ros_ws/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros_ws/install/py_srvcli:/home/rover/ros_ws/install/mypkg:/home/rover/ros_ws/install/bb:/opt/ros/foxy /usr/bin/cmake --build /home/rover/ros_ws/src/build/interfaces -- -j4 -l4
+[1.718s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.838s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.839s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.852s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.896s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.354s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.132s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.031s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.138s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.140s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.251s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.252s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.252s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[6.314s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.400s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.422s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.426s] -- Added test 'lint_cmake' to check CMake code style
+[6.428s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.439s] -- Added test 'xmllint' to check XML markup files
+[6.470s] -- Configuring done
+[6.759s] -- Generating done
+[6.827s] -- Build files have been written to: /home/rover/ros_ws/src/build/interfaces
+[7.013s] [35m[1mScanning dependencies of target interfaces__cpp[0m
+[7.017s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.070s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.640s] [  3%] Built target interfaces__cpp
+[9.700s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.782s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.786s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.831s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[9.990s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/drive__functions.c.o[0m
+[11.378s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/steer__functions.c.o[0m
+[11.609s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[11.714s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/drill__functions.c.o[0m
+[11.798s] [ 14%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/drive__type_support.cpp.o[0m
+[12.052s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/tray__functions.c.o[0m
+[12.184s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[12.293s] [ 17%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/drive__type_support.cpp.o[0m
+[12.347s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/lift__functions.c.o[0m
+[12.452s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[12.578s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/drive__type_support.cpp.o[0m
+[12.617s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[12.932s] [ 22%] Built target interfaces__rosidl_generator_c
+[12.984s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.810s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/steer__type_support.cpp.o[0m
+[14.859s] [ 26%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/steer__type_support.cpp.o[0m
+[14.952s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c[0m
+[15.127s] [ 28%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/drive__type_support.cpp.o[0m
+[15.339s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/steer__type_support.cpp.o[0m
+[15.576s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/drill__type_support.cpp.o[0m
+[15.774s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/tray__type_support.cpp.o[0m
+[15.986s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/lift__type_support.cpp.o[0m
+[16.029s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/steer__type_support.cpp.o[0m
+[16.237s] [ 38%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[16.491s] [ 38%] Built target interfaces__rosidl_typesupport_c
+[16.563s] [ 39%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.580s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/drill__type_support.cpp.o[0m
+[16.663s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/drill__type_support.cpp.o[0m
+[18.236s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/tray__type_support.cpp.o[0m
+[18.443s] [ 46%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/tray__type_support.cpp.o[0m
+[18.921s] [ 47%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/drill__type_support.cpp.o[0m
+[19.546s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[19.666s] [ 49%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/drive__type_support.c.o[0m
+[20.028s] [ 50%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/steer__type_support.c.o[0m
+[20.066s] [ 52%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/lift__type_support.cpp.o[0m
+[20.281s] [ 53%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/drill__type_support.c.o[0m
+[20.366s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/lift__type_support.cpp.o[0m
+[20.503s] [ 57%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/tray__type_support.c.o[0m
+[20.728s] [ 58%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/lift__type_support.c.o[0m
+[20.954s] [ 60%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[21.361s] [ 60%] Built target interfaces__rosidl_typesupport_introspection_c
+[21.436s] [ 61%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/tray__type_support.cpp.o[0m
+[21.722s] [ 63%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/lift__type_support.cpp.o[0m
+[21.873s] [ 65%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[22.091s] [ 65%] Built target interfaces__rosidl_typesupport_cpp
+[22.123s] [ 66%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[22.324s] [ 66%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[23.769s] [ 68%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.125s] [ 68%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[24.173s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.994s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[26.091s] [ 71%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/drive__type_support_c.cpp.o[0m
+[26.094s] [ 73%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/steer__type_support_c.cpp.o[0m
+[26.114s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/drill__type_support_c.cpp.o[0m
+[26.120s] [ 76%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/tray__type_support_c.cpp.o[0m
+[28.258s] [ 77%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/lift__type_support_c.cpp.o[0m
+[29.661s] [ 79%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[30.009s] [ 79%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[30.099s] [ 79%] Built target interfaces
+[30.145s] [35m[1mScanning dependencies of target interfaces__py[0m
+[30.199s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[34.760s] [ 80%] Built target interfaces__py
+[34.813s] [35m[1mScanning dependencies of target interfaces__python[0m
+[34.938s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_steer_s.c.o[0m
+[34.939s] [ 84%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_drill_s.c.o[0m
+[34.952s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_drive_s.c.o[0m
+[34.987s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_tray_s.c.o[0m
+[35.770s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_lift_s.c.o[0m
+[36.279s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[36.526s] [ 90%] Built target interfaces__python
+[36.607s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[36.648s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[36.683s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[36.874s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[36.924s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.929s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[37.754s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[37.789s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[37.838s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[38.133s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[38.181s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[38.286s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[38.349s] Invoked command in '/home/rover/ros_ws/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros_ws/install/py_srvcli:/home/rover/ros_ws/install/mypkg:/home/rover/ros_ws/install/bb:/opt/ros/foxy /usr/bin/cmake --build /home/rover/ros_ws/src/build/interfaces -- -j4 -l4
+[38.415s] Invoking command in '/home/rover/ros_ws/src/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros_ws/install/py_srvcli:/home/rover/ros_ws/install/mypkg:/home/rover/ros_ws/install/bb:/opt/ros/foxy /usr/bin/cmake --install /home/rover/ros_ws/src/build/interfaces
+[38.454s] -- Install configuration: ""
+[38.455s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[38.456s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces
+[38.456s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg
+[38.468s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[38.471s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv
+[38.472s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/tray.h
+[38.473s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail
+[38.473s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__functions.c
+[38.474s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__functions.h
+[38.475s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__functions.c
+[38.475s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__type_support.h
+[38.476s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__functions.h
+[38.477s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__type_support.h
+[38.478s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__struct.h
+[38.478s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__functions.c
+[38.479s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__type_support.h
+[38.480s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__struct.h
+[38.480s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__struct.h
+[38.482s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__functions.c
+[38.484s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__type_support.h
+[38.484s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__struct.h
+[38.485s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__functions.h
+[38.486s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__struct.h
+[38.487s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__functions.c
+[38.488s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__type_support.h
+[38.488s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__functions.h
+[38.489s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__functions.h
+[38.489s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/drive.h
+[38.490s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/lift.h
+[38.490s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/steer.h
+[38.491s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/drill.h
+[38.492s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/environment/library_path.sh
+[38.492s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/environment/library_path.dsv
+[38.493s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[38.494s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[38.495s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces
+[38.496s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg
+[38.497s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[38.497s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv
+[38.498s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail
+[38.499s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__rosidl_typesupport_fastrtps_c.h
+[38.499s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__rosidl_typesupport_fastrtps_c.h
+[38.500s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__rosidl_typesupport_fastrtps_c.h
+[38.501s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__rosidl_typesupport_fastrtps_c.h
+[38.501s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__rosidl_typesupport_fastrtps_c.h
+[38.505s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[38.508s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[38.509s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces
+[38.510s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg
+[38.511s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[38.511s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv
+[38.512s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail
+[38.513s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__rosidl_typesupport_fastrtps_cpp.hpp
+[38.513s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/dds_fastrtps
+[38.514s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__rosidl_typesupport_fastrtps_cpp.hpp
+[38.514s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__rosidl_typesupport_fastrtps_cpp.hpp
+[38.515s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__rosidl_typesupport_fastrtps_cpp.hpp
+[38.516s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp
+[38.519s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[38.522s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[38.524s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces
+[38.524s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg
+[38.525s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[38.526s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv
+[38.526s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail
+[38.527s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__rosidl_typesupport_introspection_c.h
+[38.528s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__type_support.c
+[38.528s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__type_support.c
+[38.529s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__rosidl_typesupport_introspection_c.h
+[38.530s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__type_support.c
+[38.531s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__type_support.c
+[38.532s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__rosidl_typesupport_introspection_c.h
+[38.533s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__rosidl_typesupport_introspection_c.h
+[38.534s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__rosidl_typesupport_introspection_c.h
+[38.535s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__type_support.c
+[38.539s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[38.542s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[38.548s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[38.550s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[38.551s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces
+[38.552s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg
+[38.552s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[38.553s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv
+[38.553s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/steer.hpp
+[38.554s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail
+[38.555s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__type_support.hpp
+[38.556s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__traits.hpp
+[38.556s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__type_support.hpp
+[38.557s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__traits.hpp
+[38.558s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__struct.hpp
+[38.567s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__traits.hpp
+[38.569s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__traits.hpp
+[38.569s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__type_support.hpp
+[38.570s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__builder.hpp
+[38.571s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__traits.hpp
+[38.572s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__builder.hpp
+[38.572s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__builder.hpp
+[38.577s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__type_support.hpp
+[38.578s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__type_support.hpp
+[38.579s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__struct.hpp
+[38.579s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__builder.hpp
+[38.580s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__struct.hpp
+[38.580s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__builder.hpp
+[38.581s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__struct.hpp
+[38.582s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__struct.hpp
+[38.583s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/drive.hpp
+[38.584s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/tray.hpp
+[38.585s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/drill.hpp
+[38.586s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/lift.hpp
+[38.588s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces
+[38.588s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv
+[38.589s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail
+[38.590s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__type_support.cpp
+[38.591s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__rosidl_typesupport_introspection_cpp.hpp
+[38.602s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__type_support.cpp
+[38.603s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/steer__type_support.cpp
+[38.603s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drill__rosidl_typesupport_introspection_cpp.hpp
+[38.604s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__type_support.cpp
+[38.605s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/drive__rosidl_typesupport_introspection_cpp.hpp
+[38.609s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__rosidl_typesupport_introspection_cpp.hpp
+[38.609s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/tray__rosidl_typesupport_introspection_cpp.hpp
+[38.610s] -- Installing: /home/rover/ros_ws/src/install/interfaces/include/interfaces/srv/detail/lift__type_support.cpp
+[38.611s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[38.611s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[38.612s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[38.616s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[38.616s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/environment/pythonpath.sh
+[38.618s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[38.618s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py
+[38.819s] Compiling '/home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...
+[38.870s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv
+[38.872s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_drive_s.c
+[38.877s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_lift.py
+[38.880s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_tray_s.c
+[38.882s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_steer.py
+[38.890s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_tray.py
+[38.891s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_drive.py
+[38.891s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_drill_s.c
+[38.892s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_lift_s.c
+[38.893s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_drill.py
+[38.894s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py
+[38.894s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_steer_s.c
+[38.896s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[38.898s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[38.901s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[38.904s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[38.908s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[38.912s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[38.916s] -- Installing: /home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__python.so
+[38.920s] -- Set runtime path of "/home/rover/ros_ws/src/install/interfaces/lib/libinterfaces__python.so" to ""
+[38.921s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Drive.idl
+[38.922s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Steer.idl
+[38.924s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Drill.idl
+[38.925s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Tray.idl
+[38.927s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Lift.idl
+[38.928s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Drive.srv
+[38.929s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Drive_Request.msg
+[38.930s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Drive_Response.msg
+[38.930s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Steer.srv
+[38.931s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Steer_Request.msg
+[38.940s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Steer_Response.msg
+[38.941s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Drill.srv
+[38.942s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Drill_Request.msg
+[38.947s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Drill_Response.msg
+[38.951s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Tray.srv
+[38.958s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Tray_Request.msg
+[38.959s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Tray_Response.msg
+[38.960s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Lift.srv
+[38.961s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Lift_Request.msg
+[38.962s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/srv/Lift_Response.msg
+[38.963s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[38.963s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[38.964s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[38.964s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[38.967s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/environment/path.sh
+[38.972s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/environment/path.dsv
+[38.974s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/local_setup.bash
+[38.975s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/local_setup.sh
+[38.976s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/local_setup.zsh
+[38.977s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/local_setup.dsv
+[38.980s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/package.dsv
+[38.981s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[38.982s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[38.983s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake
+[38.984s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[38.985s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[38.991s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[38.992s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[38.995s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[39.000s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[39.001s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.009s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[39.022s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[39.022s] -- Installing: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[39.023s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.023s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[39.024s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[39.024s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.025s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.025s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.032s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[39.033s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[39.034s] -- Up-to-date: /home/rover/ros_ws/src/install/interfaces/share/interfaces/package.xml
+[39.036s] Invoked command in '/home/rover/ros_ws/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/ros_ws/install/py_srvcli:/home/rover/ros_ws/install/mypkg:/home/rover/ros_ws/install/bb:/opt/ros/foxy /usr/bin/cmake --install /home/rover/ros_ws/src/build/interfaces

@@ -4,6 +4,7 @@
     "/home/rover/ros_ws/src/interfaces:srv/Drive.srv",
     "/home/rover/ros_ws/src/interfaces:srv/Steer.srv",
     "/home/rover/ros_ws/src/interfaces:srv/Drill.srv",
-    "/home/rover/ros_ws/src/interfaces:srv/Tray.srv"
+    "/home/rover/ros_ws/src/interfaces:srv/Tray.srv",
+    "/home/rover/ros_ws/src/interfaces:srv/Lift.srv"
   ]
 }

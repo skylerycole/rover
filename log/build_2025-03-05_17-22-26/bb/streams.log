@@ -1,0 +1,26 @@
+[3.701s] Invoking command in '/home/rover/ros_ws/src/bb': PYTHONPATH=/home/rover/ros_ws/src/build/bb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bb build --build-base /home/rover/ros_ws/src/build/bb/build install --record /home/rover/ros_ws/src/build/bb/install.log --install-scripts $base/lib/bb --single-version-externally-managed install_data
+[5.236s] running egg_info
+[5.239s] writing ../build/bb/bb.egg-info/PKG-INFO
+[5.241s] writing dependency_links to ../build/bb/bb.egg-info/dependency_links.txt
+[5.242s] writing entry points to ../build/bb/bb.egg-info/entry_points.txt
+[5.243s] writing requirements to ../build/bb/bb.egg-info/requires.txt
+[5.247s] writing top-level names to ../build/bb/bb.egg-info/top_level.txt
+[5.438s] reading manifest file '../build/bb/bb.egg-info/SOURCES.txt'
+[5.444s] writing manifest file '../build/bb/bb.egg-info/SOURCES.txt'
+[5.446s] running build
+[5.456s] running build_py
+[5.457s] running install
+[5.462s] running install_lib
+[5.474s] running install_data
+[5.477s] running install_egg_info
+[5.489s] removing '/home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb-0.0.0-py3.8.egg-info' (and everything under it)
+[5.496s] Copying ../build/bb/bb.egg-info to /home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages/bb-0.0.0-py3.8.egg-info
+[5.507s] running install_scripts
+[5.604s] Installing drill script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.605s] Installing drive script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.607s] Installing lift script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.610s] Installing rover_service script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.612s] Installing steer script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.614s] Installing tray script to /home/rover/ros_ws/src/install/bb/lib/bb
+[5.617s] writing list of installed files to '/home/rover/ros_ws/src/build/bb/install.log'
+[5.756s] Invoked command in '/home/rover/ros_ws/src/bb' returned '0': PYTHONPATH=/home/rover/ros_ws/src/build/bb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/ros_ws/src/install/bb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bb build --build-base /home/rover/ros_ws/src/build/bb/build install --record /home/rover/ros_ws/src/build/bb/install.log --install-scripts $base/lib/bb --single-version-externally-managed install_data

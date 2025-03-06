@@ -22,7 +22,7 @@ def main(args=None):
     rclpy.init(args=args)
     client = LiftClient()
 
-    steps  = float(sys.argv[1])
+    steps  = int(sys.argv[1])
     delay = float(sys.argv[2])
     client.get_logger().info(f"Sending Request to Lift:\n  Steps: {steps}\n  Delay: {delay} seconds")
     response = client.send_request(steps, delay)

@@ -1,2 +1,2 @@
 int32 steps
-int32 delay
+float64 delay

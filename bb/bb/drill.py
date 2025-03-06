@@ -11,9 +11,9 @@ class DrillClient(Node):
             self.get_logger().info("waiting for service")
         self.req = Drill.Request()
 
-    def send_request(self, steps, delay):
-        self.req.steps = steps
-        self.req.delay = delay
+    def send_request(self, speed, duration):
+        self.req.speed = speed
+        self.req.duration = duration
         self.future = self.client.call_async(self.req)
         rclpy.spin_until_future_complete(self, self.future)
         return self.future.result()
@@ -22,10 +22,10 @@ def main(args=None):
     rclpy.init(args=args)
     client = DrillClient()
 
-    steps  = float(sys.argv[1])
-    delay = float(sys.argv[2])
-    client.get_logger().info(f"Sending Request to Drill:\n  Steps: {steps}\n  Delay: {delay} seconds")
-    response = client.send_request(steps, delay)
+    speed  = float(sys.argv[1])
+    duration = float(sys.argv[2])
+    client.get_logger().info(f"Sending Request to Drill:\n  Steps: {speed}\n  Delay: {duration} seconds")
+    response = client.send_request(speed, duration)
     
     if response.success:
         client.get_logger().info('Finished')
