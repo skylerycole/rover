@@ -62,6 +62,7 @@ def main(args=None):
         print('Caught keyboard interrupt')
     finally:
         node.destroy_node()
+        node.robot.stop()
         rclpy.shutdown()
 
 if __name__=="__main__":

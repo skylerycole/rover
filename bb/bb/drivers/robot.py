@@ -9,7 +9,6 @@ class Robot():
         self.f_left = self.board2.motor2
         self.m_left = self.board2.motor1
         self.m_right = self.board2.motor3
-        self.m_right.reverse()
         self.b_left = self.board3.motor2
         self.f_right = self.board3.motor1
         self.f_right.reverse()
@@ -17,16 +16,6 @@ class Robot():
         self.b_right.reverse()
 
         self.drillMotor = self.board2.motor4
-
-        # Turn servos
-        # self.steer_servo = Servo.ServoDriver(0x40)
-
-        # Drill stepper
-        # self.board6 = Stepper.StepperDriver(0x62)
-        # self.lift = self.board6.stepper1
-        # self.drill = self.board6.stepper2
-        # self.board6 = DC.DCDriver(0x66)
-        # self.trayStepper = self.board6.stepper1
 
     def drive(self, left, right, duration):
         self.b_right.spin(right)
@@ -47,6 +36,15 @@ class Robot():
         self.drillMotor.spin(speed)
         time.sleep(duration)
         self.drillMotor.spin(0)
+
+    def stop(self):
+        self.b_right.stop()
+        self.m_right.stop()
+        self.f_right.stop()
+        self.b_left.stop()
+        self.m_left.stop()
+        self.f_left.stop()
+        self.drillMotor.stop()
 
     # def steer(self, angle):
     #     for i in range(0, 8):
